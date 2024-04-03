@@ -1,0 +1,29 @@
+style.css
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+body {
+	font-family:'Lora', serif;
+	font-size:18px;
+	margin: 0px;
+	}
+
+h1,h2,h3,h4 {
+	font-family: 'Roboto',sans-serif;
+	font-weight: bold;
+	margin-left: 40px;
+
+}
+#apply {
+	background-color: #f4f4f4; /* Light grey background for subtle contrast */
+	padding: 50px 0; /* Top and bottom padding */
+  	text-align: center; /* Aligns any text or content in the center */
+  	margin: auto; /* Centers the section if it has a set width */
+  	width: 80%; /* Sets the width of the section; adjust as needed */
+  	border-radius: 8px; /* Slightly rounded corners for a modern look */
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
